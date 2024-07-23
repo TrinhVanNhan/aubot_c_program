@@ -24,7 +24,7 @@ void tach_so(char pt[], uint8_t n, uint8_t dll[])
 	}
 	printf("%s",data);
 	printf("\n");
-	char *pttt = strtok(data,"0x");
+	char *pttt = strtok(data,"0x"); 
 	uint8_t dl[50]={};
 	int i=0;
 	char *p;
